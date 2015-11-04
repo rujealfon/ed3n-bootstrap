@@ -1,0 +1,23 @@
+{
+  "name": "ed3n-bootstrap",
+  "version": "1.0.0",
+  "authors": [
+    "parengruje <parengruje@gmail.com>"
+  ],
+  "description": "Eden 3 Starter Template",
+  "main": "index.php",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.3",
+    "font-awesome": "~4.3.0",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
+}

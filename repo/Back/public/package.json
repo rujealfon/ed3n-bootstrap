@@ -1,0 +1,34 @@
+{
+  "name": "ed3n-bootstrap",
+  "version": "1.0.0",
+  "description": "Eden 3 Starter Template",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "sudo npm install -g gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rujealfon/ed3n-bootstrap"
+  },
+  "author": "Ruje Alfon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rujealfon/ed3n-bootstrap/issues"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-uglify": "~1.2.0",
+    "gulp-concat": "~2.6.0",
+    "gulp-jshint": "~1.11.0",
+    "gulp-watch": "~4.2.4",
+    "gulp-minify-css": "~1.2.0",
+    "gulp-rename": "~1.2.2",
+    "gulp-rimraf": "~0.1.1",
+    "run-sequence": "~1.1.1",
+    "gulp-inject": "~1.3.1",
+    "main-bower-files": "~2.8.2",
+    "gulp-rev": "~5.0.1",
+    "jshint-stylish": "~2.0.1"
+  }
+}

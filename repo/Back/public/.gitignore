@@ -1,0 +1,30 @@
+# Common .gitignore ignore configuration
+
+# ignore logs folder
+logs
+.log
+
+# ignore runtime data
+pids
+*.pid
+*.seed
+
+# ignore node_modules
+node_modules
+
+# ignore bower_components
+bower_components
+
+# ignore build folders
+build
+
+# ignore vendor folders
+vendor
+application/assets/vendor
+
+# exclude .htaccess
+!.htaccess
+!.travis.yml
+!.jshintrc
+!.jshintignore
+!.npmignore
