@@ -14,11 +14,12 @@
     <!-- inject:third-party-styles -->
     <link rel="stylesheet" href="/vendor/normalize.css/normalize.css">
     <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.css">
     <!-- endinject -->
 
     <!-- inject:styles -->
     <link rel="stylesheet" href="/styles/custom.css">
-    <link rel="stylesheet" href="/styles/media.css">
+    <link rel="stylesheet" href="/styles/zmedia.css">
     <!-- endinject -->
 
     <!-- inject:third-party-scripts -->
