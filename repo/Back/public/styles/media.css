@@ -1,0 +1,39 @@
+/* RESPONSIVE LAYOUT
+---------------------------------------------------------- */
+/* iPad 1/2/mini Landscape
+Tablet 		  Landscape */
+@media (max-width: 1024px) { }
+
+/* Standard View */
+@media (max-width: 960px) { }
+
+/* Small Tablet Landscape */
+@media (max-width: 800px) { }
+
+/*  iPad 1/2 Mini Portrait
+	Tablet     portrait */
+@media (max-width: 768px) { }
+
+/* Nexus  Portrait */
+@media (max-width: 720px) { }
+
+/* Small Android Landscape */
+@media (max-width: 640px) { }
+
+/* Small Tablet Portrait */
+@media (max-width: 600px) { }
+
+/* iPhone5  Landscape */
+@media (max-width: 568px) { }
+
+/* iPhone4s Landscape
+   iPhone  Landscape */
+@media (max-width: 480px) { }
+
+/* Small Android Portrait */
+@media (max-width: 360px) { }
+
+/*  iPhone5  Portrait
+	iPhone4s portrait
+	iPhone  Portrait */
+@media (max-width: 320px) { }
