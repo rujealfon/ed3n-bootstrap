@@ -21,15 +21,6 @@
     <link rel="stylesheet" href="/styles/custom.css">
     <link rel="stylesheet" href="/styles/zmedia.css">
     <!-- endinject -->
-
-    <!-- inject:third-party-scripts -->
-    <script src="/vendor/jquery/dist/jquery.min.js"></script>
-    <script src="/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- endinject -->
-
-    <!-- inject:scripts -->
-    <script src="/scripts/global.js"></script>
-    <!-- endinject -->    
 </head>
 
 <body>
@@ -39,4 +30,12 @@
         <section class="foot"><?php echo $foot; ?></section>
     </section>
 </body>
+    <!-- inject:third-party-scripts -->
+    <script src="/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- endinject -->
+
+    <!-- inject:scripts -->
+    <script src="/scripts/global.js"></script>
+    <!-- endinject -->  
 </html>
