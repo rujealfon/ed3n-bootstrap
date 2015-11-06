@@ -20,4 +20,8 @@ namespace Front\Page;
 class Index extends \Page 
 {
 	protected $title = 'Front';
+
+	public function getVariables() {
+		return array();
+	}
 }

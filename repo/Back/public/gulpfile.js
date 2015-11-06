@@ -56,7 +56,7 @@ var APP_SCRIPTS_PATH    = __dirname + '/scripts/**/*.js';
 var APP_STYLES_PATH     = __dirname + '/styles/**/*.css';
 
 // injector target path
-var INJECT_TARGET_PATH  = __dirname + '/page.php';
+var INJECT_TARGET_PATH  = __dirname + '/page.pthml';
 
 // bower ignored files
 var ignored = [];
@@ -236,7 +236,7 @@ gulp.task('inject', function() {
     // inject vendor styles
     .pipe(inject(gulp.src(bowerStyles, options), vendorStyles.tag))
     // set destination
-    .pipe(gulp.dest('../template'));
+    .pipe(gulp.dest('../template/defaults'));
 });
 
 // set up injector - dev
@@ -273,7 +273,7 @@ gulp.task('inject-dev', function() {
     // inject vendor styles
     .pipe(inject(gulp.src(bowerStyles, options), vendorStyles.tag))
     // set destination
-    .pipe(gulp.dest('../template'));
+    .pipe(gulp.dest('../template/defaults'));
 });
 
 // set up injector-clean
