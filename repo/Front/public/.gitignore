@@ -1,8 +1,5 @@
 # Common .gitignore ignore configuration
 
-# ignore the page.phtml
-../template/defaults/page.phtml
-
 # ignore logs folder
 logs
 .log
