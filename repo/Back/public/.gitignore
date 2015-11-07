@@ -1,5 +1,8 @@
 # Common .gitignore ignore configuration
 
+# ignore the page.phtml
+../template/defaults/page.phtml
+
 # ignore logs folder
 logs
 .log
@@ -20,7 +23,6 @@ build
 
 # ignore vendor folders
 vendor
-application/assets/vendor
 
 # exclude .htaccess
 !.htaccess

@@ -56,7 +56,7 @@ var APP_SCRIPTS_PATH    = __dirname + '/scripts/**/*.js';
 var APP_STYLES_PATH     = __dirname + '/styles/**/*.css';
 
 // injector target path
-var INJECT_TARGET_PATH  = __dirname + '/page.pthml';
+var INJECT_TARGET_PATH  = __dirname + '/page.phtml';
 
 // bower ignored files
 var ignored = [];
