@@ -1,17 +1,24 @@
 {
     "require": {
-        "eden/block": "dev-master",
-        "eden/mysql": "dev-master",
-        "eden/postgre": "dev-master",
-        "eden/sqlite": "dev-master",
-        "eden/validation": "dev-master",
-        "eden/persistent": "dev-master",
-        "eden/oauth": "dev-master",
-        "eden/language": "dev-master",
-        "eden/mail": "dev-master",
-        "eden/image": "dev-master",
-        "eden/timezone": "dev-master",
-        "eden/language": "dev-master",
-        "eden/registry": "dev-master"
+        "eden/block": "1.0.5",
+        "eden/collection": "1.0.3",
+        "eden/core": "1.0.9",
+        "eden/curl": "1.0.4",
+        "eden/image": "1.0.3",
+        "eden/language": "1.0.3",
+        "eden/mail": "1.0.3",
+        "eden/model": "1.0.4",
+        "eden/mysql": "1.0.3",
+        "eden/oauth": "1.0.3",
+        "eden/persistent": "1.0.3",
+        "eden/postgre": "1.0.3",
+        "eden/registry": "1.0.2",
+        "eden/sql": "1.0.3",
+        "eden/sqlite": "1.0.3",
+        "eden/system": "1.0.3",
+        "eden/template": "1.0.3",
+        "eden/timezone": "1.0.3",
+        "eden/type": "1.0.3",
+        "eden/validation": "1.0.3"
     }
 }
