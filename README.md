@@ -33,7 +33,7 @@ from your repository.
 4. Execute this command `bower install` to install bower components.
 5. Now let's start installing bower components to /application/vendor
 by running this command `gulp install`.
-6. Then Ola! You can now start developing by runnung `gulp`
+6. Then Ola! You can now start developing by running `gulp`
 
 ### Gulp file available task
 * `gulp` default gulp task that runs `gulp watch` task.
