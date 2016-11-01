@@ -41,7 +41,7 @@ by running this command `gulp install`.
 * `gulp watch-dev` development watcher task.
 * `gulp install` bower components installer to /application/vendor folder.
 * `gulp clean-vendor` removes all the vendor files from /application/vendor folder.
-* `gulp build` creates a minified rev-versioned file to /application/build folder
+* `gulp build` creates a minified rev-versioned file to /application/build folder.
 * `gulp clean` removes or cleans the /application/build directory.
 * `gulp inject` automatically injects angular files, scripts, styles, and vendor files to <head> tag of index.html file.
 * `gulp inject-dev` injects development files, all the files that are not minified. except minified vendor files.
