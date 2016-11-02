@@ -33,7 +33,7 @@ from your repository.
 4. Execute this command `bower install` to install bower components.
 5. Now let's start installing bower components to /application/vendor
 by running this command `gulp install`.
-6. Then Ola! You can now start developing by runnung `gulp`
+6. Then Ola! You can now start developing by running `gulp`
 
 ### Gulp file available task
 * `gulp` default gulp task that runs `gulp watch` task.
@@ -41,7 +41,7 @@ by running this command `gulp install`.
 * `gulp watch-dev` development watcher task.
 * `gulp install` bower components installer to /application/vendor folder.
 * `gulp clean-vendor` removes all the vendor files from /application/vendor folder.
-* `gulp build` creates a minified rev-versioned file to /application/build folder
+* `gulp build` creates a minified rev-versioned file to /application/build folder.
 * `gulp clean` removes or cleans the /application/build directory.
 * `gulp inject` automatically injects angular files, scripts, styles, and vendor files to <head> tag of index.html file.
 * `gulp inject-dev` injects development files, all the files that are not minified. except minified vendor files.
